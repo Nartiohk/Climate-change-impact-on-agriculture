@@ -1,41 +1,35 @@
-# Climate Change and Agriculture Analysis
+# Phân Tích Biến Đổi Khí Hậu và Nông Nghiệp
 
-This repository contains a Jupyter Notebook (Climate_change.ipynb) that analyzes the impact of climate change on agriculture using data visualization and correlation analysis.
+Repository chứa file Jupyter notebook phân tích tác động của biến đổi khí hậu đến nông nghiệp thông qua trực quan hóa dữ liệu và phân tích tương quan.
 
 ## Contents
 
-Data Loading: Reads climate and agriculture data from a CSV file.
+Nạp dữ liệu: Đọc dữ liệu khí hậu và nông nghiệp từ tệp CSV.
 
-Data Processing: Cleans and prepares the data for analysis.
+Xử lý dữ liệu: Làm sạch và chuẩn bị dữ liệu để phân tích.
 
-Correlation Analysis: Uses a heatmap to visualize relationships between climate factors and agricultural yield.
+Phân tích tương quan: Sử dụng heatmap để trực quan hóa mối quan hệ giữa các yếu tố khí hậu và năng suất nông nghiệp.
 
-Visualization: Includes graphs and charts using matplotlib, seaborn, and altair.
+Trực quan hóa: Bao gồm các biểu đồ và đồ thị sử dụng matplotlib, seaborn, và altair.
 
 ## Requirements
 
-To run the notebook, install the required dependencies:
+Để chạy notebook, hãy cài đặt các thư viện cần thiết bằng lệnh sau:
 
 ``` pip install pandas numpy matplotlib seaborn altair jupyter ```
 
 ## Usage
 
-Open the notebook in Jupyter:
+Mở notebook:
 
 ``` Climate_change.ipynb ```
 
-Run the cells sequentially to analyze the data.
+Chạy từng ô lệnh theo thứ tự để phân tích dữ liệu.
 
 ## Data
 
-The analysis is based on a dataset (climate_change_impact_on_agriculture_2024.csv) that contains climate and agricultural metrics.
-
-## Results
-
-The heatmap shows correlations between precipitation, temperature, pesticide use, and crop yield.
-
-Higher precipitation tends to be positively correlated with increased crop yield.
+Phân tích dựa trên tập dữ liệu climate_change_impact_on_agriculture_2024.csv, chứa thông tin về các yếu tố khí hậu và chỉ số nông nghiệp.
 
 ## License
 
-This project is for educational purposes.
+Dự án này chỉ dành cho mục đích giáo dục.
